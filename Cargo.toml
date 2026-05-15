@@ -1,0 +1,13 @@
+[package]
+name = "rust-vault"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+aes-gcm = "0.10"
+# For secure key generation and handling
+argon2 = "0.5"
+zeroize = { version = "1.6", features = ["derive"] }
