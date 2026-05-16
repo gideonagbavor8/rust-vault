@@ -8,6 +8,8 @@ pub struct PasswordConfig {
 
 /// Generates a cryptographically strong password.
 /// Returns a String (owned) to avoid lifetime/borrow issues.
+/// Generates a cryptographically secure random password based on the provided configuration.
+/// It uses the `rand` crate to pick random characters from a predefined pool of allowed characters.
 pub fn generate_password(config: &PasswordConfig) -> String {
     let mut rng = thread_rng();
     

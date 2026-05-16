@@ -6,7 +6,7 @@ This software is a Secure Password Generator and Vault CLI. It demonstrates how 
 
 I wrote this software to familiarize myself with Rust's strict ownership model, error handling (Result and Option enums), and integrating external crates for cryptography and serialization.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/d2514ce97935438c85ad8d361f4eed12)
 
 # Development Environment
 
