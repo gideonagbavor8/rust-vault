@@ -24,9 +24,3 @@ This software is written entirely in **Rust**. It utilizes several external libr
 * [Rust Standard Library Documentation](https://doc.rust-lang.org/std/)
 * [docs.rs - aes-gcm](https://docs.rs/aes-gcm/latest/aes_gcm/)
 * [docs.rs - argon2](https://docs.rs/argon2/latest/argon2/)
-
-# Future Work
-
-* Add File I/O functionality to persistently save and load the `Vault` data to a `vault.json` file.
-* Build an interactive Command Line Interface (CLI) menu so users can easily add, retrieve, and delete passwords.
-* Add clipboard support so generated or decrypted passwords can be automatically copied to the user's clipboard.
